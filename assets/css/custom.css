@@ -1,0 +1,126 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: #ddd;
+  margin-bottom: 20px;
+  
+}
+.footer {
+  position: absolute;
+  left: 0 ;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  margin: 0 auto;
+  background: #666666;
+  display: relative;
+  align-items: center;
+  justify-content: left;
+  overflow: hidden;
+  border-top: 5px solid #4aaaa5;
+  color: #fff;
+}
+
+.footertext {
+  color: #ddd;
+  text-align:center;
+  font-size:10px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+  
+  
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #666;
+  }
+
+code {
+  font-size: 80%;
+}
+
+/* header section */
+
+
+.navbar {
+  border-bottom: 25px solid #ddd;
+}
+
+.navbar-brand.headname {
+  position: relative;
+  background-color:#4aaaa5;
+  padding: 10px 10px 10px 10px;
+  top: 7px;
+  
+  
+  
+
+  
+  
+    
+  }
+
+#navbarCollapse a {
+  color: #777;
+  
+    
+}
+
+/* body */
+
+.container {
+  background-color: #fff;
+  
+  
+}
+
+.mt-5 {
+  color: #4aaaa5;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.img1 {
+  margin-right: 10px;
+}
+
+ .lead {
+  position: relative;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+
+/* footer */
+
+.footermain {
+  position: absolute;
+  left: 0 ;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  margin: 0 auto;
+  background: #666666;
+  display: relative;
+  align-items: center;
+  justify-content: left;
+  overflow: hidden;
+  border-top: 5px solid #4aaaa5;
+  color: #fff;
+}
+
